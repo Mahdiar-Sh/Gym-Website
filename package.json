@@ -1,10 +1,5 @@
 {
-  "homepage": "https://mahdiar-sh.github.io/Gym-Website",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  },
-  "scripts": {
-  "predeploy": "yarn run build",
-  "deploy": "yarn gh-pages -d build"
   }
 }
