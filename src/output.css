@@ -1106,6 +1106,16 @@ video {
   transition-duration: 500ms;
 }
 
+@font-face{
+  src: url("./ADOBEARABIC-REGULAR.OTF");
+
+  font-family: 'ADOBEARABIC';
+}
+
+*{
+  font-family: 'ADOBEARABIC';
+}
+
 *::-moz-selection {
   -moz-user-select: none;
        user-select: none;
