@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @font-face{
-    src: url("./Inter Medium.otf");
-    font-family: 'INTER';
+    src: url("./ADOBEARABIC-REGULAR.OTF");
+    font-family: 'ADOBEARABIC';
 
 }
 *{
-    font-family: 'INTER';
+    font-family: 'ADOBEARABIC';
 }
 
 
