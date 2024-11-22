@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    src: url("./Inter Medium.otf");
+    font-family: 'INTER';
+
+}
+*{
+    font-family: 'INTER';
+}
+
+
 *::selection {
     user-select: none;
     overflow: hidden;
