@@ -49,7 +49,7 @@ btn.addEventListener("click", () => {
 })
 
 document.addEventListener("scroll", () => {
-    if (scrollY > 430) {
+    if (scrollY > 400) {
         document.getElementById("navbar").classList.replace("navpad2", "navpad");
     } else document.getElementById("navbar").classList.replace("navpad", "navpad2");
 
@@ -156,7 +156,7 @@ function addHiddenSlide() {
 
 if (screen.orientation.type == "landscape-primary") {
     document.addEventListener("scroll", () => {
-        if (scrollY > 6400) {
+        if (scrollY > 6200) {
             document.getElementById("card-1").classList.add("card1");
             document.getElementById("card-2").classList.add("card2");
             document.getElementById("card-3").classList.add("card3");
